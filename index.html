@@ -1,0 +1,37 @@
+<!-- 3D 骰子擲骰器主頁 -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <!-- 基本設定 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D 擲骰子</title>
+    <!-- 載入樣式表 -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- 載入 JavaScript 腳本（延遲執行） -->
+    <script src="./rolling.js" defer></script>
+</head>
+
+<body>
+    <!-- 骰子容器 -->
+    <div class="dice-container">
+        <!-- 3D 骰子本體 -->
+        <div class="dice" id="dice">
+            <!-- 各面對應的數字 -->
+            <div class="face front">1</div> <!-- 正面：1 -->
+            <div class="face back">2</div> <!-- 背面：2 -->
+            <div class="face right">3</div> <!-- 右側：3 -->
+            <div class="face left">4</div> <!-- 左側：4 -->
+            <div class="face top">6</div> <!-- 上方：6 -->
+            <div class="face bottom">5</div> <!-- 下方：5 -->
+        </div>
+    </div>
+    <!-- 擲骰按鈕 -->
+    <button id="rollButton">
+        <span class="back"></span> <!-- 按鈕背景 -->
+        <span class="front">擲骰子</span> <!-- 按鈕文字 -->
+    </button>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "simulate_3d_dice_rolling_animation",
+  "version": "1.0.0",
+  "description": "盡量使用較少的程式碼模擬擲 3D 骰子的動畫演出( JavaScript 版本，附上完整註解說明)",
+  "main": "src/rolling.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-chiisen:chiisen/Simulate_3D_dice_rolling_animation.js.git"
+  },
+  "keywords": [],
+  "author": "Sam",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0"
+  }
+}
